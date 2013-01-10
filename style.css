@@ -1,0 +1,120 @@
+body {
+  min-width:300px;
+  overflow-x:hidden;
+  font-family: arial;
+  font-size: 12px;
+}
+
+h1{
+  font-size: 15px;
+  display: inline;
+}
+
+.textbox{
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: #969696;
+  font-size: 10px;
+  height: 16px;
+  padding-left: 3px;
+  float: right;
+}
+
+.heading{
+  margin-bottom: 10px;
+}
+
+.menubox{
+  float: right;
+}
+
+.onlinebox{
+  width: 290px;
+  height: 50px;
+  margin-left: 0px;
+  margin-bottom: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #E0E0E0;
+  padding: 5px;ckground: #ffffff; /* Old browsers */
+
+  background: -webkit-linear-gradient(top, #ffffff 0%,#F2F2F2 100%);
+}
+
+.addbutton{
+  width: 16px;
+  height: 16px;
+  background-image: url("add.png");
+  opacity: 0.5;
+  display: inline-block;
+  float: right;
+  margin-top: 2px;
+  margin-left :2px;
+}
+
+.addbutton:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.addbutton:active{
+  margin-top: 3px;
+}
+
+.profileimage{
+  width: 50px;
+  height: 50px;
+  border: none;
+  //background-image: url("http://static-cdn.jtvnw.net/jtv_user_pictures/ongamenet-profile_image-7c1f4c67d6fe204d-50x50.jpeg");
+  float: left;
+  margin: 0px;
+}
+
+.profileinfo{
+  float: left;
+  height: 35px;
+  min-width: 10px;
+  max-width: 220px;
+  margin-left: 5px;
+}
+
+.description{
+  font-size: 10px;
+  max-height: 22px;
+  height: 22px;
+  width: 220px;
+  max-width: 225px;
+  overflow: hidden;
+}
+
+.viewers{
+  color: #C94444;
+  float: left;
+  margin-left: 2px;
+  margin-top: 0px;
+  font-weight: bold;
+  background-image: url("views.png");
+  background-repeat: no-repeat;
+  padding-left: 18px;
+  padding-top: 3px;
+  opacity: 0.5;
+}
+
+.trash{
+  width: 14px;
+  height: 14px;
+  background-image: url("trash.png");
+  float: right;
+  opacity: 0.3;
+}
+
+.trash:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.trash:active{
+  margin-left: 1px;
+  margin-top: 1px;
+}
